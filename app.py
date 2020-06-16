@@ -40,6 +40,10 @@ def set_webhook():
 def index():
     return '.'
 
+@app.route('/check')
+def index():
+    return 'Corriendo al kilo'
 
-if __name__ == '__main__':
-    app.run(threaded=True)
+
+#if __name__ == '__main__':
+#    app.run(threaded=True)
